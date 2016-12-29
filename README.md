@@ -1,1 +1,37 @@
-# Optimization-of-the-product-portfolio-in-a-major-Finance-application-platform
+Problem Statement:
+
+Initial State:
+There are many sub products in a major finance product and all the information about their usage is not under one umbrella. No action is being taken for low performing products  
+
+Final Desired State:
+There is a Tableau dashboard having a set of KPIs through which each sub products performance is analyzed. Decisions to optimize the portfolio of sub products is taken by using this
+
+Questions:
+1) What are the KPIs to gauge the sub products performance?
+2) What is the suitable layout and apt visuals required for the Tableau dashboard?
+
+Approach:
+
+Data preparation: 
+Data points were aggregated at the level of Product, Sub Product, User, Month, Year
+
+Data Issues:
+Allocated real estate in the dashboard for connecting the usage of the product and sub product to the marketing effectiveness, training activities and customer problem resolution. Due to the lack of data at the moment, it was set aside.
+
+Dashboard Creation:
+1) Tableau was connected to Oracle sql server database
+2) Dashboard had KPIS like # of users, # of active users, intensity of usage i.e the time period used, frequency of usage # of times used, %Penetration in the app (no of app users / Total no of product users) . % change in users and app hits
+3) The pen and paper version of the dashboard and the defintions of the  KPIs was taken a sign off from the client
+4) The dashboard was created only for a subset of important customers’ data. Leveraged bar charts, stacked bar charts line graphs, reference lines, tree map, word cloud, calendar chart, scatter plots, Bubble chart, stick charts
+5) Multiple tabs were present, story flowing from high level findings to lower level granularity findings
+
+
+General logic for optimization of product portfolio:
+1) For the low performing products, the product manager would combine them into a single product. This would combine both the set of users and also might attract other users because of the combination of multiple information.
+2) For the worst performing apps, they were sent to the technical info teams, to investigate whether to still hold them or remove and free the real estate of the platform
+3) The rules to determine thy are low or good performing was determined according to business rules.
+
+Nest Steps:
+1) Send the dashboard from the production phase to the usage phase
+2) Take the clients feedback for necessary modifications
+3) Automate the dashboard for its further usage
