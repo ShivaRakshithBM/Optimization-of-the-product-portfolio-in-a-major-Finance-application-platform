@@ -25,7 +25,6 @@ Dashboard Creation:
 4) The dashboard was created only for a subset of important customers’ data. Leveraged bar charts, stacked bar charts line graphs, reference lines, tree map, word cloud, calendar chart, scatter plots, Bubble chart, stick charts
 5) Multiple tabs were present, story flowing from high level findings to lower level granularity findings
 
-
 General logic for optimization of product portfolio:
 1) For the low performing products, the product manager would combine them into a single product. This would combine both the set of users and also might attract other users because of the combination of multiple information.
 2) For the worst performing apps, they were sent to the technical info teams, to investigate whether to still hold them or remove and free the real estate of the platform
