@@ -30,7 +30,7 @@ General logic for optimization of product portfolio:
 2) For the worst performing apps, they were sent to the technical info teams, to investigate whether to still hold them or remove and free the real estate of the platform
 3) The rules to determine thy are low or good performing was determined according to business rules.
 
-Nest Steps:
+Next Steps:
 1) Send the dashboard from the production phase to the usage phase
 2) Take the clients feedback for necessary modifications
 3) Automate the dashboard for its further usage
